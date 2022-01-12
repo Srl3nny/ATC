@@ -1,0 +1,24 @@
+Some reasons to love and use vim/nvim
+
+1 - Recording and repeat commands in nvim
+
+I need to delete 4 columns from a sheet
+
+* Press 'q' to start recording
+* Press 'd' to assign 
+* Press a sequence that you want to repeat, in this case I will jump the collumn(word) with 'W' and delete a collumn(word) with 'dW', jump to next line with 'j' and go to beginning of line '|'.
+* Press q to end the recording
+* Recall the command with @d or @@ or 5@d
+
+2 - Ident multiple lines
+
+* Enter visual line mode with V 
+* select the lines with 'j' or 'k'
+* Press '>' to ident
+
+3 - Comment multiple lines
+
+* Before need to install nerdcommenter plugin
+* <leader>cc to comment
+* <leader>cu uncomment
+
